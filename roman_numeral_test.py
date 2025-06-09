@@ -6,3 +6,5 @@ class TestStingMethods(unittest.TestCase):
         self.assertEqual(romanumeralise(1), "I")
     def test_ouputs_II(self):
         self.assertEqual(romanumeralise(2), "II")
+    def test_outputs_III(self):
+        self.assertEqual(romanumeralise(3), "III")
