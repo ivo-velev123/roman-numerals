@@ -3,3 +3,5 @@ def romanumeralise(input):
         return "I"
     elif input == 2:
         return "II"
+    elif input == 3:
+        return "III"
